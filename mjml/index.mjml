@@ -21,11 +21,11 @@
       <mj-class name="p" font-size="15px" line-height="15px" font-weight="400" color="#000000" font-family="Roboto, Arial, Helvetica, sans-serif"/>
       <mj-class name="Parg-1" align="center" padding="15px" font-size="15px" line-height="15px" font-weight="400" color="#000000" font-family="Roboto, Arial, Helvetica, sans-serif"/>
       <mj-class name="Parg-2" align="center" padding="27px" font-size="15px" line-height="15px" font-weight="400" color="#000000" font-family="Roboto, Arial, Helvetica, sans-serif"/>
-      <mj-class name="tv" width="1px" padding="15px 0" height="100px"></mj-class>
+      <mj-class name="tv" width="1px" padding="0px 5px" height="100px"></mj-class>
       <mj-class name="th"></mj-class>
     </mj-attributes>
     <mj-breakpoint width="480px"></mj-breakpoint>
-    <mj-style inline:inline="inline:inline">
+    <mj-style>
       .pc{
           font-weight: 600;
           color: #e69435;
@@ -52,7 +52,7 @@
     <mj-section background-color="#f1f1f1" padding="0 20px">
       <mj-column>
         <mj-image padding="0" width="610px" height="1px" src="https://op.ed-manleads.com/clt-su/upone/assets/2024-07/divider.png"/>
-        <mj-text mj-class="h2">Tous les <span class="pc">avantages Culture</span></mj-text>
+        <mj-text mj-class="h2" padding-top="20px" padding-bottom="20px">Tous les <span class="pc">avantages Culture</span></mj-text>
       </mj-column>
     </mj-section>
     <mj-section background-color="#f1f1f1" padding="0 20px">
@@ -78,6 +78,11 @@
         <mj-text mj-class="Parg-1">la durée de validité du titre culture est de <span class="pc">1 an</span></mj-text>
       </mj-column>
     </mj-section>
+    <mj-section background-color="#f1f1f1" padding="20px">
+      <mj-column>
+        <mj-image padding="0" width="610px" height="1px" src="https://op.ed-manleads.com/clt-su/upone/assets/2024-07/divider.png"/>
+      </mj-column>
+    </mj-section>
     <mj-section background-color="#f1f1f1" padding="0 20px">
       <mj-column width="32%">
         <mj-text mj-class="Parg-2">Le titre est utilisable <span class="pc">7 jours/7</span> avec votre carte UpOne</mj-text>
@@ -97,9 +102,14 @@
     </mj-section>
     <mj-section background-color="#f1f1f1" padding="0 20px">
       <mj-column>
-        <mj-text mj-class="h2" padding="0">Convaincu par <span class="pc">le Titre Culture ?</span></mj-text>
+        <mj-text mj-class="h2" padding="20px 0 0 0">Convaincu par <span class="pc">le Titre Culture ?</span></mj-text>
         <mj-text mj-class="h2" padding="0">Offrez 100% de plaisir à vos bénéficiaires !</mj-text>
         <mj-button align="center">Demandez un devis&nbsp; <i style="font-family:material-icons;color:#ffffff;">&#xE5DF; </i></mj-button>
+      </mj-column>
+    </mj-section>
+    <mj-section background-color="#f1f1f1" padding="10px 20px 20px 20px">
+      <mj-column>
+        <mj-image padding="0" width="610px" height="1px" src="https://op.ed-manleads.com/clt-su/upone/assets/2024-07/divider.png"/>
       </mj-column>
     </mj-section>
     <mj-section>
