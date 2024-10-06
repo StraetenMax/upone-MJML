@@ -33,7 +33,7 @@
     </mj-section>
     <mj-section background-color="#f1f1f1" padding="0">
       <mj-column>
-        <mj-image src="https://op.ed-manleads.com/clt-su/upone/assets/2024-07/divider.png"></mj-image>
+        <mj-image padding="0" src="https://op.ed-manleads.com/clt-su/upone/assets/2024-07/divider.png"/>
       </mj-column>
     </mj-section>
     <mj-section>
