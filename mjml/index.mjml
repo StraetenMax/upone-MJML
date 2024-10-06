@@ -14,6 +14,7 @@
     </mj-raw>
     <mj-attributes>
       <mj-text font-family="Roboto, Arial, Helvetica, sans-serif"></mj-text>
+      <mj-button padding="20px 0" background-color="#e69435" vertical-align="middle" font-size="15px" font-weight="600" color="#ffffff" inner-padding="16px 20px" border-radius="15px"/>
     </mj-attributes>
     <mj-breakpoint width="480px"></mj-breakpoint>
     <mj-style>@import "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.0/css/all.min.css"</mj-style>
@@ -25,7 +26,7 @@
         <mj-text padding="20px 0" align="left" font-size="32px" line-height="100%" font-weight="400" color="#000000">Offrez un accès à la <span style="color:#e69435;font-weight:600;">culture</span> à tous vos bénéficiaires</mj-text>
         <mj-text padding="0" align="left" font-size="15px" line-height="100%" font-weight="600" color="#000000">Saviez-vous que le panier moyen en 2024 dédié aux activités culturelles des salariés français a atteint 320€ ?</mj-text>
         <mj-text padding="0" align="left" font-size="15px" line-height="100%" font-weight="400" color="#000000">Contribuez à simplifier l'accès à la dotation Culture pour le bien-être de vos équipes/bénéficiaires !</mj-text>
-        <mj-button padding="20px 0" align="left" background-color="#e69435" vertical-align="middle" font-size="15px" font-weight="600" color="#ffffff" inner-padding="16px 20px" border-radius="15px">Demandez une demo&nbsp; <i class="fa-solid fa-arrow-right" style="color:#ffffff;"></i></mj-button>
+        <mj-button align="left">Demandez une demo&nbsp; <i class="fa-solid fa-arrow-right" style="color:#ffffff;"></i></mj-button>
       </mj-column>
       <mj-column>
         <mj-image padding="0" src="https://op.ed-manleads.com/clt-su/upone/assets/2024-07/col_02.jpg"/>
@@ -65,7 +66,7 @@
     <mj-section>
       <mj-text>Convaincu par le Titre Culture ?</mj-text>
       <mj-text>Offrez 100% de plaisir à vos bénéficiaires !</mj-text>
-      <mj-button>Demandez un devis</mj-button>
+      <mj-button align="center">Demandez un devis&nbsp; <i class="fa-solid fa-arrow-right" style="color:#ffffff;"></i></mj-button>
     </mj-section>
     <mj-section>
       <mj-column>
