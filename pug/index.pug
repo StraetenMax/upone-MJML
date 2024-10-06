@@ -3,7 +3,7 @@ extends templates/_layout
 block content
     //- Header Text
     mj-section(background-color="#f1f1f1" padding="0")
-        mj-column(padding="10px")
+        mj-column(padding="10px 20px")
             mj-image(padding="10px 0 0 0" align="left" width="118px" src="https://op.ed-manleads.com/clt-su/upone/assets/2024-07/logo.png")/
             mj-text(padding="20px 0" align="left" font-size="32px" line-height="32px" font-weight="400" color="#000000") Offrez un accès à la #[span(class="pc") culture] à tous vos bénéficiaires
             mj-text(padding="0" align="left" font-size="15px" line-height="100%" font-weight="600" color="#000000") Saviez-vous que le panier moyen en 2024 dédié aux activités culturelles des salariés français a atteint 320€ ?
@@ -11,29 +11,39 @@ block content
             mj-button(align="left") Demandez une demo&nbsp; #[i(class="fa-solid fa-arrow-right" style="color:#ffffff;")]
             mj-button(align="left") Demandez une demo&nbsp; #[i(style="font-family:Fontawesome Free;color:#ffffff;") &#xF061;]
         mj-column
-            mj-image(padding="0" src="https://op.ed-manleads.com/clt-su/upone/assets/2024-07/col_02.jpg")/
+            mj-image(padding="0" width="325px" fluid-on-mobile="true" src="https://op.ed-manleads.com/clt-su/upone/assets/2024-07/col_02.jpg")/
     //- Body Arguments
-    mj-section(background-color="#f1f1f1" padding="0")
+    mj-section(background-color="#f1f1f1" padding="0 20px")
         mj-column
-            mj-image(padding="0" src="https://op.ed-manleads.com/clt-su/upone/assets/2024-07/divider.png")/
+            mj-image(padding="0" width="610px" height="1px" src="https://op.ed-manleads.com/clt-su/upone/assets/2024-07/divider.png")/
             mj-text(mj-class="h2") Tous les #[span(class="pc") avantages Culture]
-    mj-section(background-color="#f1f1f1")
-        mj-column(width="25%")
-            mj-text(mj-class="Parg") Le titre culture est #[span(class="pc") 100%] exonéré
-        mj-column(width="25%")
-            mj-text(mj-class="Parg") Dotation possible #[span(class="pc") hors d'événement] URSSAF
-        mj-column(width="25%")
-            mj-text(mj-class="Parg") #[span(class="pc") + de 9000 sites et boutiques] culturelles partout en France
-        mj-column(width="25%")
-            mj-text(mj-class="Parg") la durée de validité du titre culture est de #[span(class="pc") 1 an]
-    mj-section(background-color="#f1f1f1")
-        mj-column(width="33,333%")
-            mj-text(mj-class="Parg") Le titre est utilisable 7 jours/7 avec votre carte UpOne
-        mj-column(width="33,333%")
-            mj-text(mj-class="Parg") Pas d'obligation de participation de l'employé
-        mj-column(width="33,333%")
-            mj-text(mj-class="Parg") Pas de limite de montant
-    mj-section(background-color="#f1f1f1")
+    mj-section(background-color="#f1f1f1" padding="0 20px")
+        mj-column(width="23.5%")
+            mj-text(mj-class="Parg-1") Le titre culture est #[span(class="pc") 100%] exonéré
+        mj-column(width="2%")
+            mj-image(mj-class="tv" src="https://op.ed-manleads.com/clt-su/upone/assets/2024-07/divider_vertical.png")/
+        mj-column(width="23.5%")
+            mj-text(mj-class="Parg-1") Dotation possible #[span(class="pc") hors d'événement] URSSAF
+        mj-column(width="2%")
+            mj-image(mj-class="tv" src="https://op.ed-manleads.com/clt-su/upone/assets/2024-07/divider_vertical.png")/
+        mj-column(width="23.5%")
+            mj-text(mj-class="Parg-1") #[span(class="pc") + de 9000 sites et boutiques] culturelles partout en France
+        mj-column(width="2%")
+            mj-image(mj-class="tv" src="https://op.ed-manleads.com/clt-su/upone/assets/2024-07/divider_vertical.png")/
+        mj-column(width="23.5%")
+            mj-text(mj-class="Parg-1") la durée de validité du titre culture est de #[span(class="pc") 1 an]
+    mj-section(background-color="#f1f1f1" padding="0 20px")
+        mj-column(width="32%")
+            mj-text(mj-class="Parg-2") Le titre est utilisable #[span(class="pc") 7 jours/7] avec votre carte UpOne
+        mj-column(width="2%")
+            mj-image(mj-class="tv" src="https://op.ed-manleads.com/clt-su/upone/assets/2024-07/divider_vertical.png")/
+        mj-column(width="32%")
+            mj-text(mj-class="Parg-2") #[span(class="pc") Pas d'obligation de participation] de l'employé
+        mj-column(width="2%")
+            mj-image(mj-class="tv" src="https://op.ed-manleads.com/clt-su/upone/assets/2024-07/divider_vertical.png")/
+        mj-column(width="32%")
+            mj-text(mj-class="Parg-2") #[span(class="pc") Pas de limite] de montant
+    mj-section(background-color="#f1f1f1" padding="0 20px")
         mj-column
             mj-text(mj-class="h2" padding="0") Convaincu par #[span(class="pc") le Titre Culture ?]
             mj-text(mj-class="h2" padding="0") Offrez 100% de plaisir à vos bénéficiaires !
