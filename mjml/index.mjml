@@ -4,6 +4,8 @@
     <mj-title>upone</mj-title>
     <mj-font name="Roboto" href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&amp;display=swap"/>
     <mj-font name="Material Symbols Outlined" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0"/>
+    <mj-font name="Fontawesome Free" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.6.0/css/fontawesome.min.css"/>
+    <mj-font name="Material Icons" href="https://fonts.googleapis.com/icon?family=Material+Icons"></mj-font>
     <mj-raw>
       <meta name="color-scheme" content="light"/>
       <meta name="supported-color-schemes" content="light"/>
@@ -13,20 +15,32 @@
       <meta name="format-detection" content="email=no"/>
     </mj-raw>
     <mj-attributes>
-      <mj-text font-family="Roboto, Arial, Helvetica, sans-serif"></mj-text>
+      <mj-text font-family="Roboto, Arial, Helvetica, sans-serif"/>
       <mj-button padding="20px 0" background-color="#e69435" vertical-align="middle" font-size="15px" font-weight="600" color="#ffffff" inner-padding="16px 20px" border-radius="15px"/>
+      <mj-class name="h2" align="center" font-size="25px" font-weight="400" line-height="25px" font-family="Roboto, Arial, Helvetica, sans-serif"/>
+      <mj-class name="p" font-size="15px" line-height="15px" font-weight="400" color="#000000" font-family="Roboto, Arial, Helvetica, sans-serif"/>
+      <mj-class name="Parg" align="center" padding="15px" font-size="15px" line-height="15px" font-weight="400" color="#000000" font-family="Roboto, Arial, Helvetica, sans-serif"/>
     </mj-attributes>
     <mj-breakpoint width="480px"></mj-breakpoint>
-    <mj-style>@import "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.0/css/all.min.css"</mj-style>
+    <mj-style inline:inline="inline:inline">
+      .pc{
+          font-weight: 600;
+          color: #e69435;
+      }
+      
+      @import "https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.6.0/css/fontawesome.min.css"
+    </mj-style>
+    <mj-style></mj-style>
   </mj-head>
   <mj-body background-color="#eeeeee" width="650px">      
     <mj-section background-color="#f1f1f1" padding="0">
       <mj-column padding="10px">
         <mj-image padding="10px 0 0 0" align="left" width="118px" src="https://op.ed-manleads.com/clt-su/upone/assets/2024-07/logo.png"/>
-        <mj-text padding="20px 0" align="left" font-size="32px" line-height="100%" font-weight="400" color="#000000">Offrez un accès à la <span style="color:#e69435;font-weight:600;">culture</span> à tous vos bénéficiaires</mj-text>
+        <mj-text padding="20px 0" align="left" font-size="32px" line-height="32px" font-weight="400" color="#000000">Offrez un accès à la <span class="pc">culture</span> à tous vos bénéficiaires</mj-text>
         <mj-text padding="0" align="left" font-size="15px" line-height="100%" font-weight="600" color="#000000">Saviez-vous que le panier moyen en 2024 dédié aux activités culturelles des salariés français a atteint 320€ ?</mj-text>
         <mj-text padding="0" align="left" font-size="15px" line-height="100%" font-weight="400" color="#000000">Contribuez à simplifier l'accès à la dotation Culture pour le bien-être de vos équipes/bénéficiaires !</mj-text>
         <mj-button align="left">Demandez une demo&nbsp; <i class="fa-solid fa-arrow-right" style="color:#ffffff;"></i></mj-button>
+        <mj-button align="left">Demandez une demo&nbsp; <i style="font-family:Fontawesome Free;color:#ffffff;">&#xF061;</i></mj-button>
       </mj-column>
       <mj-column>
         <mj-image padding="0" src="https://op.ed-manleads.com/clt-su/upone/assets/2024-07/col_02.jpg"/>
@@ -35,38 +49,40 @@
     <mj-section background-color="#f1f1f1" padding="0">
       <mj-column>
         <mj-image padding="0" src="https://op.ed-manleads.com/clt-su/upone/assets/2024-07/divider.png"/>
-        <mj-text>Tous les avantages Culture</mj-text>
+        <mj-text mj-class="h2">Tous les <span class="pc">avantages Culture</span></mj-text>
       </mj-column>
     </mj-section>
-    <mj-section>
+    <mj-section background-color="#f1f1f1">
       <mj-column width="25%">
-        <mj-text>Le titre culture est 100% exonéré</mj-text>
+        <mj-text mj-class="Parg">Le titre culture est <span class="pc">100%</span> exonéré</mj-text>
       </mj-column>
       <mj-column width="25%">
-        <mj-text>Dotation possible hors d'événement urssaf</mj-text>
+        <mj-text mj-class="Parg">Dotation possible <span class="pc">hors d'événement</span> URSSAF</mj-text>
       </mj-column>
       <mj-column width="25%">
-        <mj-text>+ de 9000 sites et boutiques culturelles partout en France</mj-text>
+        <mj-text mj-class="Parg"><span class="pc">+ de 9000 sites et boutiques</span> culturelles partout en France</mj-text>
       </mj-column>
       <mj-column width="25%">
-        <mj-text>la durée de validité du titre culture est de 1 an</mj-text>
+        <mj-text mj-class="Parg">la durée de validité du titre culture est de <span class="pc">1 an</span></mj-text>
       </mj-column>
     </mj-section>
-    <mj-section>
+    <mj-section background-color="#f1f1f1">
       <mj-column width="33,333%">
-        <mj-text>Le titre est utilisable 7 jours/7 avec votre carte UpOne</mj-text>
+        <mj-text mj-class="Parg">Le titre est utilisable 7 jours/7 avec votre carte UpOne</mj-text>
       </mj-column>
       <mj-column width="33,333%">
-        <mj-text>Pas d'obligation de participation de l'employé</mj-text>
+        <mj-text mj-class="Parg">Pas d'obligation de participation de l'employé</mj-text>
       </mj-column>
       <mj-column width="33,333%">
-        <mj-text>Pas de limite de montant</mj-text>
+        <mj-text mj-class="Parg">Pas de limite de montant</mj-text>
       </mj-column>
     </mj-section>
-    <mj-section>
-      <mj-text>Convaincu par le Titre Culture ?</mj-text>
-      <mj-text>Offrez 100% de plaisir à vos bénéficiaires !</mj-text>
-      <mj-button align="center">Demandez un devis&nbsp; <i class="fa-solid fa-arrow-right" style="color:#ffffff;"></i></mj-button>
+    <mj-section background-color="#f1f1f1">
+      <mj-column>
+        <mj-text mj-class="h2" padding="0">Convaincu par <span class="pc">le Titre Culture ?</span></mj-text>
+        <mj-text mj-class="h2" padding="0">Offrez 100% de plaisir à vos bénéficiaires !</mj-text>
+        <mj-button align="center">Demandez un devis&nbsp; <i style="font-family:material-icons;color:#ffffff;">&#xE5DF; </i></mj-button>
+      </mj-column>
     </mj-section>
     <mj-section>
       <mj-column>

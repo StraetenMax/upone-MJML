@@ -4,6 +4,8 @@ mjml
         mj-title upone
         mj-font(name="Roboto" href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap")/
         mj-font(name="Material Symbols Outlined" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0")/
+        mj-font(name="Fontawesome Free" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.6.0/css/fontawesome.min.css")/
+        mj-font(name="Material Icons" href="https://fonts.googleapis.com/icon?family=Material+Icons")
         mj-raw.
             <meta name="color-scheme" content="light"/>
             <meta name="supported-color-schemes" content="light"/>
@@ -12,11 +14,20 @@ mjml
             <meta name="format-detection" content="address=no"/>
             <meta name="format-detection" content="email=no"/>
         mj-attributes
-            mj-text(font-family="Roboto, Arial, Helvetica, sans-serif")
+            mj-text(font-family="Roboto, Arial, Helvetica, sans-serif")/
             mj-button(padding="20px 0" background-color="#e69435" vertical-align="middle" font-size="15px" font-weight="600" color="#ffffff" inner-padding="16px 20px" border-radius="15px")/
+            mj-class(name="h2" align="center" font-size="25px" font-weight="400" line-height="25px" font-family="Roboto, Arial, Helvetica, sans-serif")/
+            mj-class(name="p" font-size="15px" line-height="15px" font-weight="400" color="#000000" font-family="Roboto, Arial, Helvetica, sans-serif")/
+            mj-class(name="Parg" align="center" padding="15px" font-size="15px" line-height="15px" font-weight="400" color="#000000" font-family="Roboto, Arial, Helvetica, sans-serif")/
         mj-breakpoint(width='480px')
+        mj-style(inline:inline). 
+            .pc{
+                font-weight: 600;
+                color: #e69435;
+            }
+        
+            @import "https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.6.0/css/fontawesome.min.css"
         mj-style.
-             @import "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.0/css/all.min.css"
     //- Body
     mj-body(background-color="#eeeeee" width="650px")       
         //- content
