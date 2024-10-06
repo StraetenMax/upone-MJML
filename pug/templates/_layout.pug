@@ -1,0 +1,31 @@
+mjml
+    //- Head
+    mj-head
+        mj-title upone
+        mj-font(name="Roboto" href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap")/
+        mj-font(name="Material Symbols Outlined" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0")/
+        mj-raw.
+            <meta name="color-scheme" content="light"/>
+            <meta name="supported-color-schemes" content="light"/>
+            <meta name="format-detection" content="telephone=no"/>
+            <meta name="format-detection" content="date=no"/>
+            <meta name="format-detection" content="address=no"/>
+            <meta name="format-detection" content="email=no"/>
+        mj-attributes
+            mj-text(font-family="Roboto, Arial, Helvetica, sans-serif")
+        mj-breakpoint(width='480px')
+        mj-style.
+             @import "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.0/css/all.min.css"
+    //- Body
+    mj-body(background-color="#eeeeee" width="650px")       
+        //- content
+        block content
+        //- buttontry
+        block buttontry-3 
+            include ../includes/_buttontry-3
+        //- recommended
+            block recommended
+            include ../includes/_recommended
+        //- footer
+            block footer
+            include ../includes/_footer

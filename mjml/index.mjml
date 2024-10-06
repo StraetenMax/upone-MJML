@@ -1,0 +1,45 @@
+
+<mjml>
+  <mj-head>
+    <mj-title>upone</mj-title>
+    <mj-font name="Roboto" href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&amp;display=swap"/>
+    <mj-font name="Material Symbols Outlined" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0"/>
+    <mj-raw>
+      <meta name="color-scheme" content="light"/>
+      <meta name="supported-color-schemes" content="light"/>
+      <meta name="format-detection" content="telephone=no"/>
+      <meta name="format-detection" content="date=no"/>
+      <meta name="format-detection" content="address=no"/>
+      <meta name="format-detection" content="email=no"/>
+    </mj-raw>
+    <mj-attributes>
+      <mj-text font-family="Roboto, Arial, Helvetica, sans-serif"></mj-text>
+    </mj-attributes>
+    <mj-breakpoint width="480px"></mj-breakpoint>
+    <mj-style>@import "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.0/css/all.min.css"</mj-style>
+  </mj-head>
+  <mj-body background-color="#eeeeee" width="650px">      
+    <mj-section background-color="#f1f1f1" padding="0">
+      <mj-column padding="10px">
+        <mj-image padding="10px 0 0 0" align="left" width="118px" src="https://op.ed-manleads.com/clt-su/upone/assets/2024-07/logo.png"/>
+        <mj-text padding="20px 0" align="left" font-size="32px" line-height="100%" font-weight="400" color="#000000">Offrez un accès à la <span style="color:#e69435;font-weight:600;">culture</span> à tous vos bénéficiaires</mj-text>
+        <mj-text padding="0" align="left" font-size="15px" line-height="100%" font-weight="600" color="#000000">Saviez-vous que le panier moyen en 2024 dédié aux activités culturelles des salariés français a atteint 320€ ?</mj-text>
+        <mj-text padding="0" align="left" font-size="15px" line-height="100%" font-weight="400" color="#000000">Contribuez à simplifier l'accès à la dotation Culture pour le bien-être de vos équipes/bénéficiaires !</mj-text>
+        <mj-button padding="20px 0" align="left" background-color="#e69435" vertical-align="middle" font-size="15px" font-weight="600" color="#ffffff" inner-padding="16px 20px" border-radius="15px">demandez une demo&nbsp; <i class="fa-solid fa-arrow-right" style="color:#ffffff;"></i></mj-button>
+      </mj-column>
+      <mj-column>
+        <mj-image padding="0" src="https://op.ed-manleads.com/clt-su/upone/assets/2024-07/col_02.jpg"/>
+      </mj-column>
+    </mj-section>
+    <mj-section background-color="#f1f1f1" padding="0">
+      <mj-column>
+        <mj-image src="https://op.ed-manleads.com/clt-su/upone/assets/2024-07/divider.png"></mj-image>
+      </mj-column>
+    </mj-section>
+    <mj-section>
+      <mj-column>
+        <mj-button href="#" color="white" background-color="#F45E43" border-radius="20px" line-height="24px"><img src="https://mjml.io/assets/img/mjml-logo.png" style="width:24px; vertical-align:middle;"/>&nbsp;Download MJML !</mj-button>
+      </mj-column>
+    </mj-section>
+  </mj-body>
+</mjml>
