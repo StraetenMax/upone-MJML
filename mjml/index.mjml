@@ -21,7 +21,8 @@
       <mj-class name="Parg-1" align="center" padding="15px" font-size="15px" line-height="15px" font-weight="400" color="#000000" font-family="Roboto, Arial, Helvetica, sans-serif"/>
       <mj-class name="Parg-2" align="center" padding="27px" font-size="15px" line-height="15px" font-weight="400" color="#000000" font-family="Roboto, Arial, Helvetica, sans-serif"/>
       <mj-class name="tv" width="1px" padding="0px 5px" height="100px"></mj-class>
-      <mj-class name="th"></mj-class>
+      <mj-class name="ps1" vertical-align="middle" align="center" padding-top="0" padding-bottom="0" font-family="Arial, Helvetica, sans-serif" font-size="12px" font-weight="400" line-height="12px" color="#000000"></mj-class>
+      <mj-class name="ps2" vertical-align="middle" align="center" padding-top="0" padding-bottom="0" font-family="Arial, Helvetica, sans-serif" font-size="10px" font-weight="400" line-height="10px" color="#000000"></mj-class>
     </mj-attributes>
     <mj-breakpoint width="480px"></mj-breakpoint>
     <mj-style>
@@ -32,6 +33,12 @@
     </mj-style>
   </mj-head>
   <mj-body background-color="#eeeeee" width="650px">      
+    <mj-section full-width="full-width" background-color="#ffffff">
+      <mj-column>
+        <mj-text mj-class="ps1">Offrez un accès à la culture à tous vos salariés !</mj-text>
+        <mj-text mj-class="ps1">Voir la version en ligne | Ajouter au carnet d'adresses | Retirer de la liste de diffusion contact@ecosup-sante.fr</mj-text>
+      </mj-column>
+    </mj-section>
     <mj-section background-color="#f1f1f1" padding="0">
       <mj-column padding="10px 20px">
         <mj-image padding="10px 0 0 0" align="left" width="118px" src="https://op.ed-manleads.com/clt-su/upone/assets/2024-07/logo.png"/>
@@ -134,10 +141,17 @@
         <mj-image width="177px" src="https://op.ed-manleads.com/clt-su/upone/assets/2024-07/Up_18.jpg" alt=""/>
       </mj-column>
     </mj-section>
-    <mj-section padding="0" background-color="#f1f1f1" background-url="https://op.ed-manleads.com/clt-su/upone/assets/2024-07/back_22.jpg" background-size="cover" background-repeat="no-repeat" width="100%">
+    <mj-section padding="0" background-color="#f1f1f1" background-url="https://op.ed-manleads.com/clt-su/upone/assets/2024-07/back_22.jpg" background-size="cover" background-repeat="no-repeat">
       <mj-column>
         <mj-button align="center">Decouvrez maintenant&nbsp; <i class="bi bi-arrow-right" style="font-family:Bootstrap Icons;color:#ffffff;"></i></mj-button>
         <mj-image align="center" padding="0" width="383px" src="https://op.ed-manleads.com/clt-su/upone/assets/2024-07/carte.png" alt="Cartes bancaires"></mj-image>
+      </mj-column>
+    </mj-section>
+    <mj-section full-width="full-width" background-color="#ffffff" padding="10px 0 20px 0">
+      <mj-column>
+        <mj-text mj-class="ps2">Ce message vous est adressé par Altares pour vous présenter les services de son client.</mj-text>
+        <mj-text mj-class="ps2">Plus de détails sur l'envoi de cet email et nos engagements sont accessibles par ce lien.</mj-text>
+        <mj-text mj-class="ps2">Si vous souhaitez stopper la réception des emails d'Altares pour ce client, suivez ce lien, ou la réception de tous nos envois, suivez cet autre lien.</mj-text>
       </mj-column>
     </mj-section>
   </mj-body>
