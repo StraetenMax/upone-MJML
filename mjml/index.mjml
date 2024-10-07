@@ -32,12 +32,19 @@
           color: #e69435;
       }
     </mj-style>
+    <mj-style>
+      @media (max-width: 480px){
+          .tv{
+              display: none !important;
+          }
+      }
+    </mj-style>
   </mj-head>
   <mj-body background-color="#eeeeee" width="650px">      
     <mj-section full-width="full-width" background-color="#ffffff">
       <mj-column>
         <mj-text mj-class="ps1">Offrez un accès à la culture à tous vos salariés !</mj-text>
-        <mj-text mj-class="ps1">Voir la version en ligne | Ajouter au carnet d'adresses | Retirer de la liste de diffusion contact@ecosup-sante.fr</mj-text>
+        <mj-text mj-class="ps1"><a href="#">Voir la version en ligne</a> | <a href="#">Ajouter au carnet d'adresses</a> | <a href="#">Retirer de la liste de diffusion contact@ecosup-sante.fr</a></mj-text>
       </mj-column>
     </mj-section>
     <mj-section background-color="#f1f1f1" padding="0">
@@ -63,19 +70,19 @@
         <mj-text mj-class="Parg-1">Le titre culture est <span class="pc">100%</span> exonéré</mj-text>
       </mj-column>
       <mj-column width="2%">
-        <mj-image mj-class="tv" src="https://i.ibb.co/GCVhbcQ/divider-vertical.png"/>
+        <mj-image mj-class="tv" css-class="tv" src="https://i.ibb.co/GCVhbcQ/divider-vertical.png"/>
       </mj-column>
       <mj-column width="23.5%">
         <mj-text mj-class="Parg-1">Dotation possible <span class="pc">hors d'événement</span> URSSAF</mj-text>
       </mj-column>
       <mj-column width="2%">
-        <mj-image mj-class="tv" src="https://i.ibb.co/GCVhbcQ/divider-vertical.png"/>
+        <mj-image mj-class="tv" css-class="tv" src="https://i.ibb.co/GCVhbcQ/divider-vertical.png"/>
       </mj-column>
       <mj-column width="23.5%">
         <mj-text mj-class="Parg-1"><span class="pc">+ de 9000 sites et boutiques</span> culturelles partout en France</mj-text>
       </mj-column>
       <mj-column width="2%">
-        <mj-image mj-class="tv" src="https://i.ibb.co/GCVhbcQ/divider-vertical.png"/>
+        <mj-image mj-class="tv" css-class="tv" src="https://i.ibb.co/GCVhbcQ/divider-vertical.png"/>
       </mj-column>
       <mj-column width="23.5%">
         <mj-text mj-class="Parg-1">la durée de validité du titre culture est de <span class="pc">1 an</span></mj-text>
@@ -91,13 +98,13 @@
         <mj-text mj-class="Parg-2">Le titre est utilisable <span class="pc">7 jours/7</span> avec votre carte UpOne</mj-text>
       </mj-column>
       <mj-column width="2%">
-        <mj-image mj-class="tv" src="https://i.ibb.co/GCVhbcQ/divider-vertical.png"/>
+        <mj-image mj-class="tv" css-class="tv" src="https://i.ibb.co/GCVhbcQ/divider-vertical.png"/>
       </mj-column>
       <mj-column width="32%">
         <mj-text mj-class="Parg-2"><span class="pc">Pas d'obligation de participation</span> de l'employé</mj-text>
       </mj-column>
       <mj-column width="2%">
-        <mj-image mj-class="tv" src="https://i.ibb.co/GCVhbcQ/divider-vertical.png"/>
+        <mj-image mj-class="tv" css-class="tv" src="https://i.ibb.co/GCVhbcQ/divider-vertical.png"/>
       </mj-column>
       <mj-column width="32%">
         <mj-text mj-class="Parg-2"><span class="pc">Pas de limite</span> de montant</mj-text>
@@ -112,11 +119,11 @@
     </mj-section>
     <mj-section background-color="#f1f1f1" padding="10px 20px 20px 20px">
       <mj-column>
-        <mj-image padding="0" width="610px" height="1px" src="https://op.ed-manleads.com/clt-su/upone/assets/2024-07/divider.png"/>
+        <mj-image padding="0" width="610px" height="1px" src="https://i.ibb.co/R6S0d69/divider.png"/>
       </mj-column>
     </mj-section>
     <mj-section background-color="#f1f1f1" padding="0 20px">
-      <mj-column padding="0 40px">
+      <mj-column padding="0">
         <mj-text mj-class="h2">UpOne, la <span class="pc">seule carte physique & virtuelle</span> pour dépenser tous les avantages</mj-text>
       </mj-column>
     </mj-section>
@@ -151,8 +158,8 @@
     <mj-section full-width="full-width" background-color="#ffffff" padding="10px 0 20px 0">
       <mj-column>
         <mj-text mj-class="ps2">Ce message vous est adressé par Altares pour vous présenter les services de son client.</mj-text>
-        <mj-text mj-class="ps2">Plus de détails sur l'envoi de cet email et nos engagements sont accessibles par ce lien.</mj-text>
-        <mj-text mj-class="ps2">Si vous souhaitez stopper la réception des emails d'Altares pour ce client, suivez ce lien, ou la réception de tous nos envois, suivez cet autre lien.</mj-text>
+        <mj-text mj-class="ps2">Plus de détails sur l'envoi de cet email et nos engagements sont accessibles <a href="#">par ce lien</a>.</mj-text>
+        <mj-text mj-class="ps2">Si vous souhaitez stopper la réception des emails d'Altares pour ce client, <a href="#">suivez ce lien</a>, ou la réception de tous nos envois, <a href="#">suivez cet autre lien</a>.</mj-text>
       </mj-column>
     </mj-section>
   </mj-body>
