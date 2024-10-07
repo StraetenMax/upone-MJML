@@ -31,14 +31,17 @@ mjml
             }
     //- Body
     mj-body(background-color="#eeeeee" width="650px")       
-        //- content
+        //-content
         block content
-        //- buttontry
-            block buttontry-3 
-            include ../includes/_buttontry-3
-        //- recommended
-            block recommended
-            include ../includes/_recommended
-        //- footer
-            block footer
+        //-header
+        block header 
+            include ../includes/_header
+        //-bodyarg1
+        block bodyarg1
+            include ../includes/_bodyarg1
+        //-bodyarg2
+        block bodyarg2
+            include ../includes/_bodyarg2 
+        //-footer
+        block footer
             include ../includes/_footer
